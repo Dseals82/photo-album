@@ -7,6 +7,10 @@ const AlbumSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  image: {
+    data: Buffer,
+    contentType: String
+  },
   description: {
     type: String
   },

@@ -14,7 +14,7 @@ const Album = require('../../models/Album');
 // @route GET /photos/test
 // @description tests photos route
 // @access Public
-router.get('/test', (req, res) => res.send('photo route testing!'));
+//router.get('/test', (req, res) => res.send('photo route testing!'));
 
 // @route GET /photos
 // @description Get all photo entries
